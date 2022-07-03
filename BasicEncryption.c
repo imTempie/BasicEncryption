@@ -38,7 +38,7 @@ int main(int argc, const char* argv[])
         // For the length of the plaintext
         for (int i = 0; i < length; i++)
         {
-            // Check the character is alphanumerical
+            // Check the character is alphabetical
             if (isalpha(plaintext[i]))
             {
                 // If it is uppercase
