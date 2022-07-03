@@ -19,7 +19,7 @@ int main(int argc, const char* argv[])
         {
             if (isalpha(keyString[x]))
             {
-                printf("Usage: ./caesar key\n");
+                printf("Usage: ./BasicEncryption key\n");
                 return 1;
             }
         }
@@ -92,7 +92,7 @@ int main(int argc, const char* argv[])
     // If there are more than 2 arguments, then return 1
     else
     {
-        printf("Usage: ./caesar key\n");
+        printf("Usage: ./BasicEncryption key\n");
         return 1;
     }
 }
