@@ -80,6 +80,23 @@ int main(int argc, const char* argv[])
                     }
                 }
             }
+            else if(isalnum(plaintext[i]))
+            {
+                for (int q = 0; q < key; q++)
+                {
+                    // If the plaintext[i] is bigger than or equal to 9
+                    if (plaintext[i] >= 57)
+                    {
+                        // Set it to a
+                        plaintext[i] = '0';
+                    }
+                    // Otherwise + 1
+                    else
+                    {
+                        plaintext[i] += 1;
+                    }
+                }
+            }
             // If the plaintext[i] is not alphabetical, then leave it the same
             else
             {
