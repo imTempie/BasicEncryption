@@ -87,7 +87,7 @@ int main(int argc, const char* argv[])
                     // If the plaintext[i] is bigger than or equal to 9
                     if (plaintext[i] >= 57)
                     {
-                        // Set it to a
+                        // Set it to 0
                         plaintext[i] = '0';
                     }
                     // Otherwise + 1
